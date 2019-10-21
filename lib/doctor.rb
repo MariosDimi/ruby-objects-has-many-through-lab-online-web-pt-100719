@@ -18,3 +18,5 @@ class Doctor
     self.appointments.collect {|appointment| appointment.patient}
   end
 end
+
+doogie = Doctor.new("Doogie Howser")
