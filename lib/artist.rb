@@ -15,8 +15,8 @@ class Artist
     song.artist = self
   end
 
-  def genres                        #=> This is how the other two
-    self.songs.collect do |song|    #=> classes talk to each other
+  def genres                         
+    self.songs.collect do |song|     other
       song.genre
     end
   end
